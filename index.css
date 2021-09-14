@@ -1,0 +1,215 @@
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-repeat: no-repeat;
+    
+}
+
+.header {
+    background-image: url(img\pexels-cottonbro-7117274.jpg);
+    display: flexbox;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+        
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.ul-nav {
+    height: 110%;
+    width: 60%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: 800;
+    font-size: 1.3em;
+}
+
+
+.logonav {
+    margin-top: 10px;
+    width:auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.li-nav {
+    color: white;
+    font-weight: 800;
+    font-size: 1vw;
+    display: flex;
+}
+
+.li-nav a {
+    color: inherit;
+    text-decoration: none; 
+    
+}
+.contenedor-header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    
+    
+}
+
+.textoelustrix {
+    justify-content: center;
+    width: 100%;
+    color: white;
+    font-weight: 800;
+    font-size: 3.5em;
+}
+
+.infoelustrix {
+ width: 70%;
+ display: outside;
+}
+
+.infoelustrix h3 {
+    color: white;
+    font-weight: 400;
+    font-size:5vw;
+    margin-top: 100px;
+    padding-top: 5%;
+    justify-content: center;
+    
+}
+
+.about {
+    background-image: url(/img/pexels-anthony-shkraba-4348401.jpg);
+    height: 100vh;
+    max-width: 120%;
+    background-size: cover;
+    display: grid;
+}
+
+.about h2 {
+    font-weight: 400;
+    font-size: 4vw;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display:grid;
+    padding-top: 5%;
+        
+}
+
+.lorem {
+    max-width: 120%;
+    font-weight: 40;
+    font-size: 3vw;
+    color: white;
+    margin-top: 10px;
+    padding: 10%;
+    justify-content: center;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    word-break: break-all;
+    overflow: visible;
+}
+
+.trabajos {
+    background-color: black;
+}
+
+.trabajos h2 {
+    font-weight: 400;
+    font-size: 4em;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 5%;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;        
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.vermas {
+    border-radius: 5em;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    padding: 5px 12px;
+    font-size: 40px;  
+    line-height: 20px; 
+    text-align: center;
+    vertical-align: middle; 
+    justify-content: center;
+    margin: auto;
+    display: grid;
+    }
+
+.footer {
+    background-color: white;
+}
+
+.contacto {
+    font-weight: 400;
+    font-size: 4vw;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display:grid;
+    padding-top: 5%;    
+}
+
+.redes {
+padding-left: 20%;
+color: black;
+font-weight: 800;
+font-size: 1vw;
+display: flex;
+height: 110%;
+width: 60%;
+list-style: none;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-around;
+color: white;
+font-weight: 800;
+font-size: 1.3em;
+}
+
